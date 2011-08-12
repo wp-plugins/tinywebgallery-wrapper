@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TinyWebGallery wrapper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-12 17:07+0100\n"
+"PO-Revision-Date: 2011-08-12 17:08+0100\n"
+"Last-Translator: Michael Dempfle <tinywebgallery@mdempfle.de>\n"
+"Language-Team: TinyWebGallery <tinywebgallery@mdempfle.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\software\\xampp\\htdocs\\wordpress29\\wp-content\\plugins\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: tinywebgallery-wrapper\n"
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:18
+msgid "Please check the value you have entered. Only numbers with an optional px, %, em or pt are allowed"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:44
+msgid "Settings Updated."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:70
+msgid "TinyWebGallery administration login"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:80
+msgid "<strong>Please note:</strong> Username and password are not specified. The button below will go to the login page of the TWG administration. If you specify username and password in the settings below a direct login will be done."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:85
+msgid "To the TinyWebGallery administration"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:87
+msgid "<p><strong>Please note:</strong>TinyWebGallery has an administration that is not written for Wordpress directly. Please specify the url and the login data below at 'TinyWebGallery administration settings' for a direct login.</p>"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:97
+msgid "TinyWebGallery default settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:100
+msgid "This plugin will include your existing TWG installation in an iframe. Please enter the url and the size you want to include TinyWebGallery. You have a couple of additional default options which help to integrate TinyWebGallery better into your template. You can overwrite all of this settings by specifying the parameter in the shortcode. Please read the documentation after each field about the parameter you have to use."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:104
+msgid "Please use the following shortcode to include TinyWebGallery to your page: "
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:109
+msgid "Security key"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:109
+msgid "This is the security key which has to be used in the shorttag. This is mandatory because otherwise anyone who can create an article can insert a gallery as well.  The default security key was randomly generated during installation. Please change the key if you like. You should use this in combination with e.g. Page security to make sure that only the users you define can modify pages."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:110
+msgid "Allow shortcode attributes"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:110
+msgid "Allow to set attributes in the shortcode. All of the attributes can be overwritten in the shortcode if you set 'Yes'. Otherwise the settings you specify here are used."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:111
+msgid "TinyWebGallery url"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:111
+msgid "Enter the full URL to your TWG installation. You have to include the full path including the index.php. e.g .http://www.tinywebgallery.com/demo/index.php. Shortcode attribute: twg_url=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:112
+msgid "Width"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:112
+msgid "The width of the iframe. You can specify the value in PX or in %. If you don't specify anything px is assumed.  Shortcode attribute: width=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:113
+msgid "Height"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:113
+msgid "The height of the iframe. You can specify the value in px or in %. If you don't specify anything px is assumed. Shortcode attribute: height=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:114
+msgid "Scrolling"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:114
+msgid "Defines if scrollbars are shown if the gallery is too big for your iframe. Please note: If you select 'Yes' IE does always show scrollbars! So only use this if needed. On the TinyWebGallery web page is a big howto about integrating TinyWebgallery into an iframe. Shortcode attribute: scrolling=\"auto\" or scrolling=\"no\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:115
+msgid "Margin width"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:115
+msgid "The margin width of the iframe. You can specify the value in px. If you don't specify anything px is assumed.  Shortcode attribute: marginwidth=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:116
+msgid "Margin height"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:116
+msgid "The margin height of the iframe. You can specify the value in px. If you don't specify anything px is assumed.  Shortcode attribute: marginheight=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:117
+msgid "Frame border"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:117
+msgid "The frame border of the iframe. You can specify the value in px. If you don't specify anything px is assumed.  Shortcode attribute: frameborder=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:118
+msgid "Transparency"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:118
+msgid "If you like that the iframe is transparent and your background is shown you should set this to 'Yes'. If this value is not set then the iframe is transparent in IE but transparent in e.g. Firefox. So by default you should leave this to 'Yes'. Shortcode attribute: transparency=\"true\" or transparency=\"false\" "
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:119
+msgid "Class"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:119
+msgid "You can define a class for the iframe if you like. Shortcode attribute: class=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:120
+msgid "URL forward parameters"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:120
+msgid "Define the parameters that should be passed from the browser url to the iframe url. Please seperate the parameters by ','. In TWG this enables you to jump directly to an album or image although TWG is included in an iframe. For TWG the most interesting parameters are: twg_album, twg_show, twg_random and twg_random_display. Shortcode attribute: url_forward_parameter=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:121
+msgid "Use skin 'integrated'"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:121
+msgid "TinyWebGallery (since 1.8.5) has a skin that is optimized for integration. It is very simple one without a border, no background and black text color. Setting this value to 'Yes' will choose this skin. 'No' will use the skin you have configured in TWG. Shortcode attribute: skin=\"integrated\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:122
+msgid "Add user name as album"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:122
+msgid "You can add the user name as album to the url. If you use wfu to upload images each user has his images in his own folder. And with setting this to 'Yes' you can directly link to this folder. Shortcode attribute: addalbum=\"true\" or addalbum=\"false\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:123
+msgid "Include Lytebox css"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:123
+msgid "TinyWebGallery has support for the Lytebox lighbox script. Lytebox is able to view images in a lighbox that is not restricted to the iframe and uses the whole page. To enable this the lytebox.css has to be included in the main page. This feature is only available for registered user of TWG. So you can set this to 'No' if your version of TWG is not registered. Wordpress and TWG have to be installed on the same domain. The lytebox does NOT work in the preconfigured example because of the same origin policy of Javascript. See the recommended settings below.  Shortcode attribute: include_lytebox_css=\"true\", include_lytebox_css=\"false\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:128
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:150
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:172
+msgid "Update Settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:131
+msgid "Advanced options"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:134
+msgid "With the following options you can modify your template on the fly to give the iframe more space! At most templates you would have to create a page template with a special css and this is quite complicated. By using the options below your template is modified on the fly by jQuery. Please look at the screenshots to make this options more clear. The options are very useful for templates that have a top navigtation because otherwise your menu is gone! If you still want to do this you should add a back link to the page. The examples below are for Twenty Ten, iNove and the default wordpress theme."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:138
+msgid "Content id"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:138
+msgid "Some templates do not use the full width for their content and even most 'One column, no sidebar Page Template' templates only remove the sidebar but do not change the content width. Please set the id of the div starting with a hash (#) that defines the content. In the field below you then define the style you want to overwrite. For Twenty Ten and WordPress Default the id is #content, for iNove it is #main. You can also define more than one element. Please seperate them by | and provide the styles below. Please read the note below how to find this id for other templates. #content|h2 means that you want to set a new style for the div content and the heading h2 below. Shortcode attribute: content_styles=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:139
+msgid "Content styles"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:139
+msgid "Define the styles that have to be overwritten to enable the full width. Most of the time have to modify some of the following attributes: width, margin-left, margin-right, padding-left. Please use ; as seperator between styles. If you have defined more than one element above (Content id) please seperate the different style sets with |. The default values are: Wordpress default: 'width:450px;padding-left:45px;'. Twenty Ten: 'margin-left:20px;margin-right:240px'. iNove: 'width:605px'. Please read the note below how to find this styles for other templates. If you have defined #content|h2 at the Content id you can e.g. set 'width:650px;padding-left:25px;|padding-left:15px;'. Shortcode attribute: content_styles=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:141
+msgid "Hide elements"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:141
+msgid "This setting allows to hide elements when the iframe is shown. This can be used to hide the sidebar or the heading. Usage: If you want to hide a div you have to enter a hash (#) followed by the id e.g. #sidebar. If you want to hide a heading which is a &lt;h2&gt; you have to enter h2. You can define several elements seperated by, e.g. #sidebar,h2. This gives you a lot more space to show the content of the iframe. To get the id of the sidebar go to Appearance -> Editor -> Click on 'Sidebar' on the right side. Then look for the first 'div' you find. The id of this div is the one you need. For some common templates the id is e.g. #menu, #sidebar, or #primary. For Twenty Ten and iNove you can remove the sidebar directly: Page attributes -> Template -> no sidebar. Wordpress default: '#sidebar'. I recommend to use firebug (see below) to find the elements and ids. You can use any valid jQuery selector pattern here! Shortcode attribute: hide_sidebar=\"\""
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:145
+msgid "<strong>How to find the id and the attributes:</strong><ol><li>Manually: Go to Appearance -> Editor and select the page template. The you have to look with div elements are defined. e.g. container, content, main. Also classes can be defined here. Then you have to select the style sheet below and search for this ids and classes and look which one does define the width of you content.</li><li>Firebug: For Firefox you can use the plugin firebug to select the content element directly in the page. On the right side the styles are always shown. Look for the styles that set the width or any bigger margins. This are the values you can then overwrite by the settings above.</li><li><strong>Small jquery help</strong><br>Above you have to use the jQuery syntax:<p><ul><li>- tags - if you want to hide/modify a tag directly (e.g. h1, h2) simply use it directly e.g. h1,h2</li><li>- id - if you want to hide/modify an element where you have the id use #id</li><li>- class - if you want to hide/modify an element where you have the class use .class</li></ul></p>For more complex selectors please read the jQuery documentation.</li></ol>"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:157
+msgid "TinyWebGallery administration settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:160
+msgid "TinyWebGallery has an administration that is not written for Wordpress directly. Therefore you have to specify the url if you like to go to the admin panels directly. If you specify a user and a password you are logged in automatically and you can manage TWG there."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:164
+msgid "TinyWebGallery admin url"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:165
+msgid "User name"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:165
+msgid "User name for the TWG administration. This user name is stored directly in the wordpress database. If you don't like this simply leave user and password empty. You have to enter them then at TWG directly."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:166
+msgid "Password"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:166
+msgid "Password for the TWG administration. This password is stored directly in the wordpress database. If you don't like this simply leave user and password empty. You have to enter them then at TWG directly."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:167
+msgid "Show TinyWebGallery link in main menu"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:167
+msgid "By default the TinyWebGallery link is ony shown in the settings menu. If you like to go to the administration of TWG faster set this setting to 'Yes' and the TinyWebGallery link is shown as main menu item."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:179
+msgid "TinyWebGallery recommended settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:181
+msgid ""
+"If you use TinyWebGallery in an iframe there are some recommended configuration settings because the iframe is limited in space:           \n"
+"        <ol>              \n"
+"            <li>Disable comments or use the setting that comments are displayed inside the iframe where comments are entered</li>              \n"
+"            <li>Use scrolling = No. If you select 'Yes' IE does always show scrollbars! So only use this if needed. On the TinyWebGallery web page is a big howto about integrating TinyWebgallery into an iframe.</li>              \n"
+"            <li>Check if the most viewed images fit to your iframe. If not you should disable this functionality or reduce the numbers shown there.</li>              \n"
+"            <li>Check if the search result fits to your iframe. If not you should disable this functionality.</li>                \n"
+"            <li>Use the integrated skin or disable at least the border. This gives you more space and a good integration into Wordpress. The integrated skin does not define any border, has a transparent background and a black text color. It has only a line between the TWG menu and the image content.</li>                \n"
+"            <li>Uploading with WFU: You can use my Wordpress flash uploader plugin which enables you to offer direct upload to the gallery picture folder. WFU uses the same upload flash than TWG and is directly integrated in Wordpress and can be configured there as well.</li>                \n"
+"            <li>Lytebox: If you like to use the lytebox script you have to have TWG and Wordpress on the <strong>same</strong> domain. Otherwise the Javascript in the iframe is not allowed to access the main page (same origin policy). In the preconfigred example of the TinyWebGallery wrapper the lytebox does NOT work but it does if you install everything on one domain.</li>          \n"
+"        </ol>"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:197
+msgid "TinyWebGallery random image widget"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:200
+msgid "With the TinyWebGallery wrapper you have also installed the TinyWebGallery random image widget. It displays a random image or a most viewed image."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:204
+msgid "For the widget the TinyWebGallery installation specified above is used."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:211
+msgid "TinyWebGallery register/donate"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:214
+msgid "This is the wrapper of TinyWebGallery and the random image function of TinyWebGallery. If you like TWG or one of my other projects like JFU, WFU or TFU you should consider to register because you can use all products with one single license and get all features of the gallery and a complete upload solution as well."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:218
+msgid "Please go <a href=\"http://www.tinywebgallery.com\" target=\"_blank\">www.tinywebgallery.com</a> for details."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:233
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:253
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:338
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:380
+msgid "Yes"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:237
+#: tinywebgallery-wrapper/tinywebgallery-admin-page.php:257
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:342
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:384
+msgid "No"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:13
+msgid "Displays a random image or the top viewed image of TinyWebGallery"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:17
+msgid "TinyWebGallery random image"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:186
+msgid "Title:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:191
+msgid "Image settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:193
+msgid "URL to TWG image.php:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:197
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:284
+msgid "Use URL from the settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:201
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:288
+msgid "Use URL below"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:208
+msgid "Display mode:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:212
+msgid "Random"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:217
+msgid "Top viewed"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:220
+msgid "Album:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:225
+msgid "Enter the value of ?twg_album="
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:228
+msgid "Image size:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:240
+msgid "Include sub directories"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:247
+msgid "Center image"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:251
+msgid "Shadow / Border:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:257
+msgid "None or css below"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:260
+msgid "Drop shadow"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:263
+msgid "Single line border"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:266
+msgid "Margin top (3px)"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:269
+msgid "Css style class:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:274
+msgid "Link settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:276
+msgid "URL to TWG:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:280
+msgid "No link"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:293
+msgid "If you use the TWG iframe wrapper you should enter the Wordpress URL where you have included TWG. The wrapper does add the needed parameters to the TWG iframe."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:296
+msgid "Link destination:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:301
+msgid "Image"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:305
+msgid "Album"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:309
+msgid "Target:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:315
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:359
+msgid "None"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:318
+msgid "New window (_blank)"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:321
+msgid "Topmost window (_top)"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:324
+msgid "Same window (_self)"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:327
+msgid "Parent window (_parent)"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:331
+msgid "Slideshow settings"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:333
+msgid "Activate slideshow:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:345
+msgid "Slideshow interval:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:353
+msgid "Fade:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:362
+msgid "Low"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:365
+msgid "Medium"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:368
+msgid "High"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:371
+msgid "Full"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:375
+msgid "Reserve space:"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:386
+msgid "Reserve the space for a vertical image. If No the layout can jump when slideshow is running and images have a different height."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:389
+msgid "Help"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-random-widget.php:390
+msgid "Please read <a style=\"text-decoration:none;\" href=\"http://www.tinywebgallery.com/en/faq.php#h4\" target=\"_blank\">howto 4</a> of the TWG FAQ for details."
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-wrapper.php:106
+msgid "An invalid security key was specified. Please use at least the following shortcode:<br>[twg securitykey=\"&lt;your security key - see settings&gt;\"]"
+msgstr ""
+
+#: tinywebgallery-wrapper/tinywebgallery-wrapper.php:176
+msgid "Configuration error: The attributes content_id and content_styles have to have the amount of value sets separated by |."
+msgstr ""
+
