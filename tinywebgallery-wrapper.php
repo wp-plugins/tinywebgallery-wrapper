@@ -2,7 +2,7 @@
 /* 
 Plugin Name: TinyWebGallery wrapper
 Plugin URI: http://www.tinywebgallery.com
-Version: 1.8.5
+Version: 1.8.6
 Author: Michael Dempfle
 Author URI: http://www.tinywebgallery.com
 Description: This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget
@@ -160,20 +160,20 @@ if (!class_exists("twgWrapper")) {
                     $html .= '<style type="text/css" src="' . $css_url . '" ></style>';
                 }
 
-                if ((!empty($options['content_id']) && !empty($options['content_styles']))
-                        || !empty($options['hide_elements'])) {
+                if ((!empty($content_id) && !empty($content_styles))
+                        || !empty($hide_elements)) {
                     $html .= "<script>
                    jQuery(document).ready(function() {";
-                    if (!empty($options['hide_elements'])) {
-                        $html .= "jQuery('" . esc_html($options['hide_elements']) . "').css('display', 'none');";
+                    if (!empty($hide_elements)) {
+                        $html .= "jQuery('" . esc_html($hide_elements) . "').css('display', 'none');";
                     }
-                    if (!empty($options['content_id'])) {
-                        $elements = esc_html($options['content_id']); // this field should not have a problem if they are encoded.
-                        $values = esc_html($options['content_styles']); // this field style should not have a problem if they are encoded.
+                    if (!empty($content_id)) {
+                        $elements = esc_html($content_id); // this field should not have a problem if they are encoded.
+                        $values = esc_html($content_styles); // this field style should not have a problem if they are encoded.
                         $elementArray = explode("|", $elements);
                         $valuesArray = explode("|", $values);
                         if (count($elementArray) != count($valuesArray)) {
-                            echo '<div class="errordiv">' . __('Configuration error: The attributes content_id and content_styles have to have the amount of value sets separated by |.', 'twg-wrapper') . '</div>';
+                            echo '<div class="errordiv">' . __('Configuration error: The attributes content_id and content_styles have to have the amount of value sets separated by |.', 'advanced-iframe') . '</div>';
                             return;
                         } else {
                             for ($x = 0; $x < count($elementArray); ++$x) {

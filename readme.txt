@@ -4,7 +4,7 @@ Donate link: http://www.tinywebgallery.com
 Tags: Tinywebgallery, TWG, iframe, gallery, shortcode, widget, random image
 Requires at least: 2.8.6
 Tested up to: 3.2.1
-Stable tag: 1.8.5
+Stable tag: 1.8.6
 
 This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.
 
@@ -79,6 +79,10 @@ There are 2 ways to install the TinyWebGallery Wrapper
 
 
 == Upgrade Notice ==
+= 1.8.6 =
+Improved the reading of settings when the attributes are read.
+Addes a new administration setting
+
 = 1.8.5 =
 First version.
 
