@@ -3,8 +3,8 @@ Contributors: mdempfle, Michael Dempfle
 Donate link: http://www.tinywebgallery.com
 Tags: Tinywebgallery, TWG, iframe, gallery, shortcode, widget, random image
 Requires at least: 2.8.6
-Tested up to: 3.2.1
-Stable tag: 1.8.6
+Tested up to: 3.3.1
+Stable tag: 1.8.7
 
 This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.
 
@@ -13,7 +13,7 @@ This plugin includes TinyWebGallery as shortcode in an advanced iframe and offer
 This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.
 
 = Shortcode for TinyWebGallery =
-By entering the shortcode '[twg secuitykey=""]' you can include the TinyWebGallery to any page or article. 
+By entering the shortcode '[twg securitykey=""]' you can include the TinyWebGallery to any page or article. 
 The following differences to a normal iframe are implemented:
 
 - Security code: You can only insert the shortcode with a valid security code from the administration.
@@ -26,7 +26,7 @@ The following differences to a normal iframe are implemented:
 - Add the user directory automatically
 
 The following shortcode attributes can be used. Please go to the administration for details:
-[twg secuitykey="" twg_url="" width="" height="" scrolling="" marginwidth="" marginheight="" 
+[twg securitykey="" twg_url="" width="" height="" scrolling="" marginwidth="" marginheight="" 
  frameborder="" skin="" addalbum="" include_lytebox_css="" content_id="" content_styles="" 
  hide_elements="" class="" url_forward_parameter=""]
 
@@ -58,13 +58,13 @@ There are 2 ways to install the TinyWebGallery Wrapper
 1. Click Plugins, Add New
 1. Search for TinyWebGallery
 1. Install and Activate it
-1. Place '[twg secuitykey=""]' in your pages or posts or use the widget.
+1. Place '[twg securitykey=""]' in your pages or posts or use the widget.
 
 *Using FTP*
 
 1. Upload 'tinywebgallery-wrapper' to the '/wp-content/plugins/' directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place '[twg secuitykey=""]' in your pages or posts or use the widget.
+1. Place '[twg securitykey=""]' in your pages or posts or use the widget.
 
 == Frequently Asked Questions ==
 *Working with the Shortcodes*
@@ -79,6 +79,11 @@ There are 2 ways to install the TinyWebGallery Wrapper
 
 
 == Upgrade Notice ==
+= 1.8.7 =
+Tested with TWG 1.8.7
+Tested with Wordpress 3.3.1
+Fixed the typo in the doumentation. In securitykey sometimes the r was missing 
+
 = 1.8.6 =
 Improved the reading of settings when the attributes are read.
 Addes a new administration setting
