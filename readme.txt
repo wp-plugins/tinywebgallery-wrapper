@@ -66,7 +66,7 @@ There are 2 ways to install the TinyWebGallery Wrapper
 1. Place '[twg securitykey=""]' in your pages or posts or use the widget.
 
 == Frequently Asked Questions ==
-*Working with the Shortcodes*
+= Working with the Shortcodes =
 The following shortcode attributes can be used. Please go to the administration for details:
 [twg securitykey="" twg_url="" width="" height="" scrolling="" marginwidth="" marginheight="" 
  frameborder="" skin="" addalbum="" include_lytebox_css="" content_id="" content_styles="" 
