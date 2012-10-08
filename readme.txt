@@ -67,6 +67,10 @@ There are 2 ways to install the TinyWebGallery Wrapper
 
 == Frequently Asked Questions ==
 *Working with the Shortcodes*
+The following shortcode attributes can be used. Please go to the administration for details:
+[twg securitykey="" twg_url="" width="" height="" scrolling="" marginwidth="" marginheight="" 
+ frameborder="" skin="" addalbum="" include_lytebox_css="" content_id="" content_styles="" 
+ hide_elements="" class="" url_forward_parameter=""]
 
 == Screenshots ==
 1. Comparison between normal iframe and advanced iframe wrapper. The red areas are modified by the advanced iframe to display the content better.
