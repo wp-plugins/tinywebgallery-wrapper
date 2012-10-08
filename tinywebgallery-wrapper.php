@@ -2,7 +2,7 @@
 /* 
 Plugin Name: TinyWebGallery wrapper
 Plugin URI: http://www.tinywebgallery.com
-Version: 1.8.7
+Version: 1.8.9
 Author: Michael Dempfle
 Author URI: http://www.tinywebgallery.com
 Description: This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget
@@ -157,7 +157,7 @@ if (!class_exists("twgWrapper")) {
                         $css_url = dirname(dirname($options['twg_admin_url']));
                     }
                     $css_url .= '/lightbox/lytebox.css';
-                    $html .= '<style type="text/css" src="' . $css_url . '" ></style>';
+                    $html .= '<link type="text/css" rel="stylesheet" href="' . $css_url . '" />';
                 }
 
                 if ((!empty($content_id) && !empty($content_styles))
@@ -188,7 +188,7 @@ if (!class_exists("twgWrapper")) {
                     $html .= " });
                  </script>";
                 }
-                $html .= "<iframe id='twg_iframe' src='" . $twg_url . "' width='" . esc_html($width) . "' height='" . esc_html($height) . "' scrolling='" . esc_html($scrolling) . "' ";
+                $html .= "<iframe id='twg_iframe' name='twg_iframe' src='" . $twg_url . "' width='" . esc_html($width) . "' height='" . esc_html($height) . "' scrolling='" . esc_html($scrolling) . "' ";
                 if (!empty ($marginwidth)) {
                     $html .= " marginwidth='" . esc_html($marginwidth) . "' ";
                 }
