@@ -3,8 +3,8 @@ Contributors: mdempfle, Michael Dempfle
 Donate link: http://www.tinywebgallery.com
 Tags: Tinywebgallery, TWG, iframe, gallery, shortcode, widget, random image
 Requires at least: 2.8.6
-Tested up to: 3.4.2
-Stable tag: 1.8.9
+Tested up to: 3.5
+Stable tag: 1.8.9.1
 This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.
 
 == Description ==
@@ -82,6 +82,10 @@ The following shortcode attributes can be used. Please go to the administration 
 
 
 == Upgrade Notice ==
+= 1.8.9.1 =
+css fixes for Wordpress 3.5.1
+Tested with Wordpress 3.5.1
+
 = 1.8.9 =
 Lytebox css is now read propery. 
 iframe has now id='twg_iframe' and name='twg_iframe'
@@ -91,19 +95,9 @@ Tested with TWG 1.8.9
 = 1.8.7 =
 Tested with TWG 1.8.7
 Tested with Wordpress 3.3.1
-<<<<<<< .mineLytebox css is now read propery. 
 iframe has now id='twg_iframe' and name='twg_iframe'
 Tested with TWG 1.8.9
-
-= 1.8.7 =
-Tested with TWG 1.8.7
-Tested with Wordpress 3.3.1
-
-=======Tested with TWG 1.8.7
-Tested with Wordpress 3.3.1
 Fixed the typo in the doumentation. In securitykey sometimes the r was missing 
-
->>>>>>> .theirs= 1.8.6 =
 Improved the reading of settings when the attributes are read.
 Addes a new administration setting
 
