@@ -2,7 +2,7 @@
 /* 
 Plugin Name: TinyWebGallery wrapper
 Plugin URI: http://www.tinywebgallery.com
-Version: 2.2
+Version: 2.2.1
 Author: Michael Dempfle
 Author URI: http://www.tinywebgallery.com
 Description: This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget

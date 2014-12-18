@@ -97,6 +97,10 @@ if (is_user_logged_in() && is_admin()) {
         <?php _e('TinyWebGallery default settings', 'twg-wrapper'); ?></h2>
 
         <p>
+        <?php _e('Please note: This plugin is the base of <a href="https://wordpress.org/plugins/advanced-iframe/" target="_blank">advanced iframe</a> (<a href="http://codecanyon.net/item/advanced-iframe-pro/5344999?ref=mdempfle" target="_blank">pro</a>) which has now even more features! ', 'twg-wrapper'); ?>
+        </p>
+
+        <p>
         <?php _e('This plugin will include your existing TWG installation in an iframe. Please enter the url and the size you want to include TinyWebGallery. You have a couple of additional default options which help to integrate TinyWebGallery better into your template. You can overwrite all of this settings by specifying the parameter in the shortcode. Please read the documentation after each field about the parameter you have to use.', 'twg-wrapper'); ?>
         </p>
 
