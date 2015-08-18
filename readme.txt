@@ -3,8 +3,8 @@ Contributors: mdempfle, Michael Dempfle
 Donate link: http://www.tinywebgallery.com
 Tags: Tinywebgallery, TWG, iframe, gallery, shortcode, widget, random image
 Requires at least: 2.8.6
-Tested up to: 4.1
-Stable tag: 2.2.1
+Tested up to: 4.3
+Stable tag: 2.3.3
 This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.
 
 == Description ==
@@ -80,19 +80,18 @@ The following shortcode attributes can be used. Please go to the administration 
 1. The advanced admin screen to enable advanced settings like html and css changes.
 1. The section to enter the TWG admin details.
 
-== Changelog ==
-= 2.2.1 =
-Tested with Wordpress 4.1
-Added a note to advanced iframe
 
-= 2.2 =
-Tested with Wordpress 4.0.1
-Tested with TWG 2.2
-Assets added
+== Upgrade Notice ==
+= 2.3.3 =
+Updated for Wordpress 4.3 - updated widget constructor usage.
+
+= 2.3 =
+Tested with Wordpress 4.1
+css is only loaded in the administration if needed
 
 = 1.8.9.1 =
-css fixes for Wordpress 3.5.1
-Tested with Wordpress 3.5.1
+css fixes for Wordpress 3.5
+Tested with Wordpress 3.5
 
 = 1.8.9 =
 Lytebox css is now read propery. 
@@ -103,11 +102,25 @@ Tested with TWG 1.8.9
 = 1.8.7 =
 Tested with TWG 1.8.7
 Tested with Wordpress 3.3.1
+<<<<<<< .mineLytebox css is now read propery. 
 iframe has now id='twg_iframe' and name='twg_iframe'
 Tested with TWG 1.8.9
+
+= 1.8.7 =
+Tested with TWG 1.8.7
+Tested with Wordpress 3.3.1
+
+=======Tested with TWG 1.8.7
+Tested with Wordpress 3.3.1
 Fixed the typo in the doumentation. In securitykey sometimes the r was missing 
+
+>>>>>>> .theirs= 1.8.6 =
 Improved the reading of settings when the attributes are read.
 Addes a new administration setting
 
+= 1.8.5 =
+First version.
+
+== Changelog ==
 = 1.8.5 =
 First version. Wrapper version always matches the version of TinyWebGallery

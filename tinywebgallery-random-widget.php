@@ -8,13 +8,13 @@ Widget include
 
 */
 class twg_random_image_widget extends WP_Widget {
-    function twg_random_image_widget() {
+    function __construct() {
         /* Widget settings. */
         $widget_ops = array('classname' => 'twg_random_image_widget', 'description' => __('Displays a random image or the top viewed image of TinyWebGallery', 'twg-wrapper'));
         /* Widget control settings. */
         $control_ops = array('width' => 220, 'height' => 300, 'id_base' => 'twg_random_image_widget');
         /* Create the widget. */
-        $this->WP_Widget('twg_random_image_widget', __('TinyWebGallery random image', 'twg-wrapper'), $widget_ops, $control_ops);
+        parent::__construct('twg_random_image_widget', __('TinyWebGallery random image', 'twg-wrapper'), $widget_ops, $control_ops);
     }
 
     function widget($args, $instance) {

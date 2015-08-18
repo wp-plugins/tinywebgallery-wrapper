@@ -2,7 +2,7 @@
 /* 
 Plugin Name: TinyWebGallery wrapper
 Plugin URI: http://www.tinywebgallery.com
-Version: 2.2.1
+Version: 2.3.3
 Author: Michael Dempfle
 Author URI: http://www.tinywebgallery.com
 Description: This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget
@@ -67,7 +67,9 @@ if (!class_exists("twgWrapper")) {
         }
 
         /* CSS for the admin area */
-        function addAdminHeaderCode() {
+        function addAdminHeaderCode($hook) {
+            if( $hook != 'settings_page_tinywebgallery-wrapper' && $hook != 'toplevel_page_tinywebgallery-wrapper') 
+         		    return;
             echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/tinywebgallery-wrapper/css/twg.css" />' . "\n";
 
         }

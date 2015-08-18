@@ -96,7 +96,7 @@ if (is_user_logged_in() && is_admin()) {
         <h2>
         <?php _e('TinyWebGallery default settings', 'twg-wrapper'); ?></h2>
 
-        <p>
+         <p>
         <?php _e('Please note: This plugin is the base of <a href="https://wordpress.org/plugins/advanced-iframe/" target="_blank">advanced iframe</a> (<a href="http://codecanyon.net/item/advanced-iframe-pro/5344999?ref=mdempfle" target="_blank">pro</a>) which has now even more features! ', 'twg-wrapper'); ?>
         </p>
 
