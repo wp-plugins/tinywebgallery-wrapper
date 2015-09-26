@@ -4,7 +4,7 @@ Donate link: http://www.tinywebgallery.com
 Tags: Tinywebgallery, TWG, iframe, gallery, shortcode, widget, random image
 Requires at least: 2.8.6
 Tested up to: 4.3
-Stable tag: 2.3.3
+Stable tag: 2.3.4
 This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.
 
 == Description ==
@@ -82,6 +82,10 @@ The following shortcode attributes can be used. Please go to the administration 
 
 
 == Upgrade Notice ==
+= 2.3.4 =
+Fixed a wrong text domain
+Added the text domain
+
 = 2.3.3 =
 Updated for Wordpress 4.3 - updated widget constructor usage.
 

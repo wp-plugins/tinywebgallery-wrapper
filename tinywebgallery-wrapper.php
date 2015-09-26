@@ -2,7 +2,9 @@
 /* 
 Plugin Name: TinyWebGallery wrapper
 Plugin URI: http://www.tinywebgallery.com
-Version: 2.3.3
+Version: 2.3.4
+Text Domain: twg-wrapper
+Domain Path: /languages
 Author: Michael Dempfle
 Author URI: http://www.tinywebgallery.com
 Description: This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget
@@ -175,7 +177,7 @@ if (!class_exists("twgWrapper")) {
                         $elementArray = explode("|", $elements);
                         $valuesArray = explode("|", $values);
                         if (count($elementArray) != count($valuesArray)) {
-                            echo '<div class="errordiv">' . __('Configuration error: The attributes content_id and content_styles have to have the amount of value sets separated by |.', 'advanced-iframe') . '</div>';
+                            echo '<div class="errordiv">' . __('Configuration error: The attributes content_id and content_styles have to have the amount of value sets separated by |.', 'twg-wrapper') . '</div>';
                             return;
                         } else {
                             for ($x = 0; $x < count($elementArray); ++$x) {
